@@ -1,0 +1,26 @@
+.cell {
+	background-image: url("../images/empty.png");
+	background-repeat: no-repeat;
+	width: 99px;
+	height: 99px;
+	margin: 0;
+	padding: 0;
+}
+
+.red {
+	background-image: url("../images/red.png");
+	background-repeat: no-repeat;
+	width: 99px;
+	height: 99px;
+	margin: 0;
+	padding: 0;
+}
+
+.black {
+	background-image: url("../images/black.png");
+	background-repeat: no-repeat;
+	width: 99px;
+	height: 99px;
+	margin: 0;
+	padding: 0;
+}
