@@ -32,11 +32,13 @@ function togglePlayer() {
 		$("#player").css("background-color","black");
 		$("#currPlayer").text("Black");
 		$("#board").css("border-bottom","10px solid black");
+		
 	} else if(currentPlayer === "b") {
 		currentPlayer = "r";
 		$("#player").css("background-color","red");
 		$("#currPlayer").text("Red");
 		$("#board").css("border-bottom","10px solid red");
+
 	}
 }
 
