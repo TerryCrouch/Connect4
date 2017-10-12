@@ -199,12 +199,14 @@ function promptWin() {
 	$(pageDiv).append(winDiv);
 
 	$("#board").append(pageDiv);
-	console.log("doing shit");
-
 
 	$(document).keyup(function() {
 		resetGame();
 	});
+
+	$("#pageDiv").click(function() {
+		resetGame();
+	})
 }
 
 // Reset game on win
