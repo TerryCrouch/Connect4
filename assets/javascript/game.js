@@ -18,6 +18,10 @@ function buildGrid() {
 	$(".cell").click(function() {
 		cellClicked(this);
 	})
+
+	$("#pageDiv").keyup(function() {
+		return;
+	});
 }
 
 buildGrid();
@@ -200,7 +204,7 @@ function promptWin() {
 
 	$("#board").append(pageDiv);
 
-	$(document).keyup(function() {
+	$("#pageDiv").keyup(function() {
 		resetGame();
 	});
 
@@ -216,5 +220,13 @@ function resetGame() {
 
 	currentPlayer = "r";
 	gridMatrix = [[,,,,,],[,,,,,],[,,,,,],[,,,,,],[,,,,,],[,,,,,]];
+
+	$("#pageDiv").keyup(function() {
+		return;
+	});
+
+	$("#pageDiv").click(function() {
+		return;
+	})
 
 }
