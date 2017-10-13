@@ -2,7 +2,6 @@
 
 var gridMatrix = [[,,,,,],[,,,,,],[,,,,,],[,,,,,],[,,,,,],[,,,,,]];
 
-<<<<<<< HEAD
 var ai = {
 	possMoves: [0,0,0,0,0,0],
 	threat: [0,0,0,0,0,0],
@@ -18,13 +17,7 @@ var ai = {
 		possFour: [0,0,0,0,0,0]
 	}
 }
-=======
-/* var ai = {
-	possMoves = [,,,,,],
-	threat = [,,,,,],
-	offense = [,,,,,]
-} */
->>>>>>> d1da5effbc896bbc1689ddb3783356e07c488b8a
+
 
 // Function to create the grid system and assign X/Y coordinates
 function buildGrid() {
@@ -409,10 +402,6 @@ function determineMove() {
 					}
 				}
 			}
-
-
-
-
 
 		}
 
