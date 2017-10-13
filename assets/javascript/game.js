@@ -2,11 +2,11 @@
 
 var gridMatrix = [[,,,,,],[,,,,,],[,,,,,],[,,,,,],[,,,,,],[,,,,,]]
 
-var ai = {
+/* var ai = {
 	possMoves = [,,,,,],
 	threat = [,,,,,],
 	offense = [,,,,,]
-}
+} */
 
 // Function to create the grid system and assign X/Y coordinates
 function buildGrid() {
